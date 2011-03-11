@@ -1,5 +1,5 @@
 validatorCFC
-Sean Coyne (sean@n42designs.com)
+Sean Coyne (http://www.n42designs.com)
 
 This component validates the data in an object according to custom rules you set up.  It is especially created to determine data validity for a data store (DBMS, etc) rather than for business rules, but you can set up your own complex rules.  Some may be out of its scope, however.
 
