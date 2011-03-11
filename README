@@ -1,0 +1,16 @@
+validatorCFC
+Sean Coyne (sean@n42designs.com)
+
+This component validates the data in an object according to custom rules you set up.  It is especially created to determine data validity for a data store (DBMS, etc) rather than for business rules, but you can set up your own complex rules.  Some may be out of its scope, however.
+
+I have included some sample rules that test various data types and common formats.
+
+Your object to be validated must have getters for each property in the format getFirstName() where FirstName is a property, and must use cfproperty tags in order to indicate which rules should apply for each property. (I would like to allow this to be specified using an XML config file or a config bean in the future)
+
+Inspired by this article: http://coldfusion.sys-con.com/read/370835.htm
+
+REQUIREMENTS
+
+ColdFusion 7
+A properly formed object to validate.
+Pre-built or custom rules.
