@@ -267,4 +267,5 @@
 		<cfargument name="baseLocation" required="true" type="string" />
 		<cfset variables.baseLocation = arguments.baseLocation />
 	</cffunction>
+
 </cfcomponent>
