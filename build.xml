@@ -47,6 +47,7 @@
       failureproperty="mxunit.failed">
         <testcase name="tests.TestRules" packageName="tests.TestRules"/>
         <testcase name="tests.TestValidator" packageName="tests.TestValidator"/>
+        <testcase name="tests.TestAccessors" packageName="tests.TestAccessors"/>
     </mxunittask>
     <mxunitoutputtask resultsdirectory="${output.dir}" />
     <fail if="mxunit.error" message="An error occured running MXUnit" />
