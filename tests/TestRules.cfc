@@ -134,11 +134,8 @@
 		
 	<cffunction name="validEuroDate_pass" acccess="public" output="false" returntype="void">
 		<cfset var rule = createObject("component","com.n42designs.validation.rules.validEuroDate") />
-		<cfset assertTrue(
-			rule.validate("01/01/2010") and 
-			rule.validate("31/12/2010") and
-			rule.validate("31 Dec 2010")
-		) />
+		<cfset assertTrue(rule.validate("01/01/2010")) />
+		<cfset assertTrue(rule.validate("31/12/2010")) />
 	</cffunction>
 	
 	<cffunction name="validEuroDate_fail" acccess="public" output="false" returntype="void">

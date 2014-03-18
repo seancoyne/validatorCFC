@@ -20,6 +20,8 @@ Credit:
 	
 	Thanks to Aaron Greenlee (http://www.aarongreenlee.com) for some great enhancements
 
+	Travis CI code grabbed from FW1 (https://github.com/framework-one/fw1)
+
 Usage:
 
 	This component validates the data in an object according to custom rules you set up.  It is especially created to determine data validity for a data store (DBMS, etc) rather than for business rules, but you can set up your own complex rules.  Some may be out of its scope, however.
