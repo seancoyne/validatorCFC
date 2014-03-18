@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/framework-one/fw1.png)](https://travis-ci.org/seancoyne/validatorCFC)
+[![Build Status](https://travis-ci.org/seancoyne/validatorCFC.png)](https://travis-ci.org/seancoyne/validatorCFC)
 
 # ValidatorCFC
 Sean Coyne - [http://www.n42designs.com/](http://www.n42designs.com/)
