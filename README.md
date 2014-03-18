@@ -2,6 +2,7 @@
 
 # ValidatorCFC
 Sean Coyne - [http://www.n42designs.com/](http://www.n42designs.com/)
+Apache 2.0 License
 
 ### Change log:
 
